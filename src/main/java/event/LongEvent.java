@@ -6,7 +6,7 @@ package event;
  * version: V1.0
  * Date: 2017/7/12
  * Time: 13:29
- * Description:定义事件
+ * Description:定义事件（交换的数据类型）
  */
 public class LongEvent {
 

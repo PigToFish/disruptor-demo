@@ -10,10 +10,10 @@ import event.LongEvent;
  * Time: 13:38
  * Description:创建事件
  */
-public class LongEventFactory implements EventFactory {
+public class LongEventFactory implements EventFactory<LongEvent> {
 
     @Override
-    public Object newInstance() {
+    public LongEvent newInstance() {
         return new LongEvent();
     }
 }
